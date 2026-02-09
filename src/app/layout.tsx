@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import "@styles/scss/main.scss";
 import { Poppins } from "next/font/google";
 import Chatbot from "@components/Chatbot";
+import LoadingScreen from "@components/LoadingScreen";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -375,6 +376,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-poppins antialiased text-gray-800 bg-white">
+        <LoadingScreen />
         {children}
         <Chatbot />
       </body>
