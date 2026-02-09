@@ -1,0 +1,43 @@
+@import "custom/variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  scroll-behavior: smooth;
+  background-color: #ffff;
+}
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-tap-highlight-color: transparent; /* Safari and Chrome */
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $theme-color;
+  border-radius: 5px;
+}
+
+.back {
+  background: url('/images/hero-bg.png') no-repeat center center/cover;
+  background-position: center; /* Ensures the image is centered */
+  background-size: cover; /* Ensures the image covers the full container */
+  background-attachment: fixed; /* Optional: makes the background fixed when scrolling */
+}
+
+/* Prevent scrolling when the class is applied */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
