@@ -14,7 +14,7 @@ export default function OrganizersContent() {
           bgColor="bg-transparent"
         />
         <p className="max-w-2xl text-gray-500">
-          Meet the dedicated team behind NCIPETC-26, working together to bring
+          Meet the dedicated team behind ICIPETC-26, working together to bring
           you an inspiring conference experience.
         </p>
       </div>

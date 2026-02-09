@@ -46,7 +46,7 @@ export default function RegistrationContent() {
           bgColor="bg-transparent"
         />
         <p className="max-w-2xl text-gray-500 text-lg">
-          Join us at NCIPETC-26. Find your category below and register to be a
+          Join us at ICIPETC-26. Find your category below and register to be a
           part of this premier conference.
         </p>
       </div>

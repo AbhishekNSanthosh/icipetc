@@ -60,25 +60,29 @@ export default function ContactContent() {
             <FaPhoneAlt className="text-3xl" />
           </div>
           <h3 className="text-xl font-bold text-gray-800 mb-3">Call Us</h3>
-          <div className="flex flex-col space-y-2">
-            <Link
-              href="tel:+918589059517"
-              className="text-gray-600 hover:text-primary-600 font-medium transition-colors"
-            >
-              +91 8589059517
-            </Link>
-            <Link
-              href="tel:+919995267896"
-              className="text-gray-600 hover:text-primary-600 font-medium transition-colors"
-            >
-              +91 9995267896
-            </Link>
-            <Link
-              href="tel:+919995152970"
-              className="text-gray-600 hover:text-primary-600 font-medium transition-colors"
-            >
-              +91 9995152970
-            </Link>
+          <div className="flex flex-col space-y-3">
+            <div className="flex flex-col">
+              <span className="text-gray-500 text-sm font-medium">
+                Ms Vani V Prakash
+              </span>
+              <Link
+                href="tel:+918129549100"
+                className="text-gray-800 hover:text-primary-600 font-bold transition-colors"
+              >
+                +91 8129549100
+              </Link>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-gray-500 text-sm font-medium">
+                Ms Nithyamol Antony
+              </span>
+              <Link
+                href="tel:+919995152970"
+                className="text-gray-800 hover:text-primary-600 font-bold transition-colors"
+              >
+                +91 9995152970
+              </Link>
+            </div>
           </div>
         </div>
       </div>

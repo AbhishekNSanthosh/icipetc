@@ -17,12 +17,12 @@ module.exports = {
       },
       colors: {
         conference: {
-          primary: "#1f75fe", // Original Primary 600
-          secondary: "#0b55ea", // Original Primary 700
-          accent: "#1f75fe", // Original Primary 600
-          highlight: "#298eff", // Original Primary 500
+          primary: "#05b570", // rgb(5, 181, 112) - Main Green
+          secondary: "#04915a", // Darker Green
+          accent: "#05b570", // Same as primary for consistency
+          highlight: "#36c58d", // Lighter Green
         },
-        slk: { // Keeping for backward compatibility if needed, but we should migrate
+        slk: { // Keeping for backward compatibility if needed
           regular: "#133c25",
           light: "#239254",
           dark: "#d5e6dc",
@@ -37,10 +37,10 @@ module.exports = {
           100: '#d8edff',
           200: '#b9dfff',
           300: '#89cdff',
-          400: '#51b0ff',
-          500: '#298eff',
-          600: '#1f75fe',
-          700: '#0b55ea',
+          400: '#36c58d', // Lighter Green
+          500: '#05b570', // Main Green
+          600: '#04915a', // Darker Green
+          700: '#036e44', // Even Darker
           800: '#1046bd',
           900: '#143e94',
           950: '#11275a',

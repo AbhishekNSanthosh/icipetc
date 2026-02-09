@@ -16,112 +16,137 @@ export default function Footer() {
   return (
     <footer className="w-full bg-white pt-10 pb-5">
       <div className="px-[5vw]">
-        <div className="bg-[#0f172a] text-white rounded-[2rem] p-8 lg:p-12 shadow-2xl overflow-hidden relative">
-          {/* Decorative BG element */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-conference-accent rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+        <div className="bg-[#020617] text-white rounded-2xl sm:rounded-[2rem] p-6 sm:p-8 lg:p-16 shadow-2xl overflow-hidden relative border border-gray-800">
+          {/* Decorative BG elements */}
+          <div className="absolute top-0 right-0 w-96 h-96 bg-conference-primary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-conference-secondary/20 rounded-full blur-3xl translate-y-1/3 -translate-x-1/3"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 relative z-10">
-            {/* Column 1: Brand & Info */}
+          <div className="relative z-10 space-y-10 lg:space-y-0 lg:grid lg:grid-cols-12 lg:gap-12">
+            {/* Column 1: Brand & Contact Info */}
             <div className="lg:col-span-4 flex flex-col space-y-6">
-              <Link href="/" className="inline-block">
-                <span className="text-3xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-                  ICIPETC-26
-                </span>
-              </Link>
-              <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-                International Conference on Interdisciplinary Perspectives of
-                Emerging Trends in Computing. Join us for a convergence of minds
-                and ideas.
-              </p>
+              {/* Brand */}
+              <div className="text-center lg:text-left">
+                <Link href="/" className="inline-block group">
+                  <span className="text-2xl sm:text-3xl font-bold tracking-tight text-white group-hover:text-conference-primary transition-colors">
+                    ICIPETC<span className="text-conference-primary">-26</span>
+                  </span>
+                </Link>
+                <p className="text-gray-400 text-sm leading-relaxed mt-3 max-w-sm mx-auto lg:mx-0">
+                  International Conference on Interdisciplinary Perspectives of
+                  Emerging Trends in Computing.
+                </p>
+              </div>
 
-              <div className="flex flex-col space-y-4 pt-4">
-                <div className="flex items-center space-x-3 text-gray-300 group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-conference-primary transition-colors">
-                    <MdOutlineMail className="text-xl" />
+              {/* Contact Info - Simplified for Mobile */}
+              <div className="space-y-3">
+                {/* Email */}
+                <div className="bg-white/5 rounded-xl p-3 border border-white/10 hover:border-conference-primary/50 transition-all">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-conference-primary/10 flex items-center justify-center shrink-0 text-conference-primary">
+                      <MdOutlineMail className="text-lg" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-0.5">
+                        Email
+                      </p>
+                      <Link
+                        href="mailto:conferencecse@carmelcet.in"
+                        className="text-sm font-medium text-gray-300 hover:text-white transition-colors block truncate"
+                        title="conferencecse@carmelcet.in"
+                      >
+                        conferencecse@carmelcet.in
+                      </Link>
+                    </div>
                   </div>
-                  <Link
-                    href="mailto:conferencecse@carmelcet.in"
-                    className="text-sm hover:text-white transition-colors"
-                  >
-                    conferencecse@carmelcet.in
-                  </Link>
                 </div>
-                <div className="flex items-start space-x-3 text-gray-300 group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-conference-primary transition-colors">
-                    <FaPhone className="text-lg" />
-                  </div>
-                  <div className="text-sm flex flex-col">
-                    <Link
-                      href="tel:+919995267896"
-                      className="hover:text-white transition-colors"
-                    >
-                      +91 9995267896
-                    </Link>
-                    <Link
-                      href="tel:+918589059517"
-                      className="hover:text-white transition-colors"
-                    >
-                      +91 8589059517
-                    </Link>
-                    <Link
-                      href="tel:+919995152970"
-                      className="hover:text-white transition-colors"
-                    >
-                      +91 9995152970
-                    </Link>
+
+                {/* Phone */}
+                <div className="bg-white/5 rounded-xl p-3 border border-white/10 hover:border-conference-primary/50 transition-all">
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-conference-primary/10 flex items-center justify-center shrink-0 text-conference-primary">
+                      <FaPhone className="text-base" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">
+                        Contact
+                      </p>
+                      <div className="space-y-1.5">
+                        <Link
+                          href="tel:+918129549100"
+                          className="text-sm font-medium text-gray-300 hover:text-white transition-colors block"
+                        >
+                          <span className="text-conference-primary">
+                            +91 8129549100
+                          </span>
+                          <span className="block text-xs text-gray-500 mt-0.5">
+                            Ms. Vani V. Prakash
+                          </span>
+                        </Link>
+                        <Link
+                          href="tel:+919995152970"
+                          className="text-sm font-medium text-gray-300 hover:text-white transition-colors block"
+                        >
+                          <span className="text-conference-primary">
+                            +91 9995152970
+                          </span>
+                          <span className="block text-xs text-gray-500 mt-0.5">
+                            Ms. Nithyamol Antony
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Column 2: Quick Links */}
-            <div className="lg:col-span-3 flex flex-col space-y-6">
-              <h3 className="text-lg font-semibold text-white border-b border-gray-700 pb-2 inline-block w-max">
+            {/* Column 2: Quick Links - Simplified */}
+            <div className="lg:col-span-3">
+              <h3 className="text-base sm:text-lg font-semibold text-white mb-4 flex items-center gap-2 justify-center lg:justify-start">
+                <span className="w-6 h-0.5 bg-conference-primary rounded-full"></span>
                 Quick Links
               </h3>
-              <ul className="flex flex-col space-y-3">
+              <ul className="space-y-2.5">
                 {navItem?.map((item, index) => (
-                  <li key={index} className="flex flex-col">
-                    {/* Main Link items without dropdown */}
+                  <li key={index} className="block">
                     {!item.dropdown && (
                       <Link
                         href={item.link}
-                        className="text-gray-400 hover:text-primary-400 text-sm flex items-center gap-2 transition-colors w-fit"
+                        className="text-gray-400 hover:text-conference-primary text-sm flex items-center gap-2 transition-all group w-fit mx-auto lg:mx-0 py-1"
                       >
-                        <span className="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
+                        <span className="w-1 h-1 rounded-full bg-gray-600 group-hover:bg-conference-primary transition-colors"></span>
                         <span className="capitalize">{item.title}</span>
                       </Link>
                     )}
 
-                    {/* Items with dropdown - Render Main Title if it has a link, else just title */}
                     {item.dropdown && (
-                      <div className="flex flex-col space-y-2">
+                      <div className="space-y-2">
                         {item.link !== "/" && item.link !== "#" ? (
                           <Link
                             href={item.link}
-                            className="text-gray-400 hover:text-primary-400 text-sm flex items-center gap-2 transition-colors w-fit"
+                            className="text-gray-300 hover:text-conference-primary text-sm font-medium flex items-center gap-2 transition-all group w-fit mx-auto lg:mx-0 py-1"
                           >
-                            <span className="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
+                            <span className="w-1 h-1 rounded-full bg-conference-primary"></span>
                             <span className="capitalize">{item.title}</span>
                           </Link>
                         ) : (
-                          <span className="text-gray-500 text-xs font-bold uppercase tracking-wider mt-2 mb-1">
-                            {item.title}
+                          <span className="text-gray-300 text-sm font-medium flex items-center gap-2 w-fit mx-auto lg:mx-0 py-1">
+                            <span className="w-1 h-1 rounded-full bg-conference-primary"></span>
+                            <span className="capitalize">{item.title}</span>
                           </span>
                         )}
 
-                        {/* Sub-links */}
-                        {item.dropdown.map((sub, idx) => (
-                          <Link
-                            key={idx}
-                            href={sub.url}
-                            className="text-gray-400 hover:text-primary-400 text-sm flex items-center gap-2 pl-4 transition-colors w-fit"
-                          >
-                            <FaLink className="text-[10px] text-gray-600" />
-                            <span className="capitalize">{sub.title}</span>
-                          </Link>
-                        ))}
+                        <div className="pl-4 lg:pl-5 space-y-1.5">
+                          {item.dropdown.map((sub, idx) => (
+                            <Link
+                              key={idx}
+                              href={sub.url}
+                              className="text-gray-500 hover:text-conference-primary text-xs sm:text-sm transition-colors block py-0.5 w-fit mx-auto lg:mx-0"
+                            >
+                              {sub.title}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
                     )}
                   </li>
@@ -129,38 +154,58 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Column 3: Location / Map */}
-            <div className="lg:col-span-5 flex flex-col space-y-6">
-              <div className="flex items-center space-x-2 text-white border-b border-gray-700 pb-2 w-full">
-                <FaMapMarkerAlt className="text-conference-highlight" />
-                <h3 className="text-lg font-semibold">Location</h3>
+            {/* Column 3: Location - Simplified */}
+            <div className="lg:col-span-5">
+              <div className="flex items-center gap-2 text-white mb-4 justify-center lg:justify-start">
+                <div className="w-8 h-8 rounded-lg bg-conference-primary/10 flex items-center justify-center text-conference-primary">
+                  <FaMapMarkerAlt className="text-sm" />
+                </div>
+                <h3 className="text-base sm:text-lg font-semibold">Venue</h3>
               </div>
-              <div className="w-full h-48 lg:h-full rounded-xl overflow-hidden border border-gray-700 shadow-inner bg-gray-800 relative group">
+
+              <div className="w-full h-48 sm:h-56 lg:h-64 rounded-xl lg:rounded-2xl overflow-hidden border border-gray-800 shadow-xl relative group mb-4">
+                <div className="absolute inset-0 bg-conference-primary/10 z-10 pointer-events-none group-hover:bg-transparent transition-colors duration-500"></div>
                 <iframe
                   title="map"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15743.240295000398!2d76.3430202!3d9.4380491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf49b9fc5a41d110a!2sCarmel%20College%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1624884010736!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   loading="lazy"
-                  className="filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                  className="filter grayscale-[100%] contrast-[1.1] opacity-70 group-hover:grayscale-0 group-hover:contrast-100 group-hover:opacity-100 transition-all duration-700"
                   style={{ border: 0 }}
                 ></iframe>
               </div>
-              <p className="text-xs text-gray-500 text-center">
-                Carmel College of Engineering & Technology, Punnapra, Alappuzha
-              </p>
+
+              <div className="bg-white/5 rounded-xl p-3 border border-white/10">
+                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed text-center lg:text-left">
+                  <span className="font-medium text-gray-300">
+                    Carmel College of Engineering & Technology
+                  </span>
+                  <br />
+                  Punnapra, Alappuzha - 688004, Kerala
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Footer Bottom */}
-          <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500 relative z-10">
-            <p>© 2026 ICIPETC-26. All rights reserved.</p>
-            <div className="flex items-center space-x-4">
-              <Link href="#" className="hover:text-white transition-colors">
-                Privacy Policy
+          {/* Footer Bottom - Simplified */}
+          <div className="mt-10 lg:mt-16 pt-5 lg:pt-8 border-t border-gray-800/50 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm text-gray-500 relative z-10">
+            <p className="text-center sm:text-left">
+              © 2026 ICIPETC-26. All rights reserved.
+            </p>
+            <div className="flex items-center gap-3 sm:gap-5">
+              <Link
+                href="#"
+                className="hover:text-conference-primary transition-colors"
+              >
+                Privacy
               </Link>
-              <Link href="#" className="hover:text-white transition-colors">
-                Terms of Service
+              <span className="text-gray-700">•</span>
+              <Link
+                href="#"
+                className="hover:text-conference-primary transition-colors"
+              >
+                Terms
               </Link>
             </div>
           </div>

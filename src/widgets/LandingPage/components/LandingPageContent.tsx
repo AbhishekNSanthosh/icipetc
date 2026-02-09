@@ -20,10 +20,14 @@ export default function LandingPageContent() {
           <p className="text-base text-left">
             Empowering Minds, Bridging Horizons: Unveiling the Future at the
             International Conference on Interdisciplinary Perspectives of
-            Emerging Trends in Computing
+            Emerging Trends in Computing (ICIPETC-26)
+            <br />
+            <span className="font-bold text-conference-primary block mt-2 text-lg">
+              March 13, 2026
+            </span>
           </p>
           <div className="flex items-center justify-start space-x-6 flex-col lg:flex-row">
-            <Link href={"https://forms.gle/VWgA4t2jr1esEkLcA"} target="_blank">
+            <Link href={"https://forms.gle/MPumP2bZST17MJmq5"} target="_blank">
               <button className="bg-conference-primary rounded-[8px] outline-none border-none px-4 py-2 text-white">
                 Submit your paper now
               </button>
@@ -38,11 +42,11 @@ export default function LandingPageContent() {
         </div>
         <div className="flex-1 flex items-center justify-end">
           <Image
-            src={"/images/carmelInd.webp"}
+            src={"/brand.png"}
             alt=""
             width={2000}
             height={2000}
-            className="w-[32rem] h-full object-cover"
+            className="w-[40rem] h-full object-cover md:mt-[-5rem]"
           />
         </div>
       </div>

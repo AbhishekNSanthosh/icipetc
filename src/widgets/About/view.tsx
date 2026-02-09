@@ -25,8 +25,8 @@ export default function About() {
             <div className="flex-1 space-y-6">
               <div className="flex flex-col gap-6">
                 <p className="text-lg text-gray-600 leading-relaxed text-justify">
-                  National Conference on Interdisciplinary Perspectives of
-                  Emerging Trends in Computing (NCIPETC 2026) aims to provide an
+                  International Conference on Interdisciplinary Perspectives of
+                  Emerging Trends in Computing (ICIPETC-26) aims to provide an
                   excellent forum for uniting academicians and experts from
                   industries to share knowledge and research in the field of
                   computing. The conference also serves as a dynamic platform

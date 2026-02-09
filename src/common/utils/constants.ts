@@ -1,12 +1,12 @@
 export const navItem = [
     {
-        title: "home",
+        title: "Home",
         link: "/"
     }, {
-        title: "about",
+        title: "About",
         link: "/about"
     }, {
-        title: "conference",
+        title: "Conference",
         link: "/",
         dropdown: [
             {
@@ -14,11 +14,11 @@ export const navItem = [
                 url: "/organizers",
             },
             {
-                title: "Advisory board",
+                title: "Advisory Board",
                 url: "/advisory-board",
             },
             {
-                title: "Important dates",
+                title: "Important Dates",
                 url: "/important-dates",
             },
         ],
@@ -27,7 +27,7 @@ export const navItem = [
         link: "/registration"
     },
     {
-        title: "paper submission",
+        title: "Paper Submission",
         link: "/",
         dropdown: [
             // {
@@ -35,17 +35,17 @@ export const navItem = [
             //     url: "",
             // },
             {
-                title: "Call for papers",
+                title: "Call for Papers",
                 url: "/call-for-papers",
             },
             {
-                title: "Submission guidelines",
+                title: "Submission Guidelines",
                 url: "/submission-guidelines",
             },
         ],
     },
     {
-        title: "contact us",
+        title: "Contact Us",
         link: "/contact-us"
     },
 ]
@@ -54,20 +54,13 @@ export const orgCommitte = {
     coordinators: [
         {
             id: 1,
-            name: "Dr M. S. Sujithra",
-            desgn: "Associate Professor",
+            name: "Ms Vani V. Prakash",
+            desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
-            img: "/committe/sujithra_ms.jpg"
+            img: "/committe/vani.jpg"
         },
         {
             id: 2,
-            name: "Ms V. L. Divya",
-            desgn: "Assistant Professor",
-            dep: " Department of CSE, CCET",
-            img: "/committe/divya.jpg"
-        },
-        {
-            id: 3,
             name: "Ms Nithyamol Antony",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
@@ -77,73 +70,122 @@ export const orgCommitte = {
     members: [
         {
             id: 1,
-            name: "Dr Reji R",
-            desgn: "Associate Professor",
+            name: "Mr. Anoop R. S.",
+            desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
-            img: "/committe/reji.jpg"
+            img: "/committe/anoop_rs.jpg"
         },
         {
             id: 2,
-            name: "Mr Arun P. Kuttappan",
+            name: "Ms. Divya V. L.",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: "/committe/divya.jpg"
+        },
+        {
+            id: 4,
+            name: "Mr. Arun P. Kuttappan",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/arun_k.jpg"
         },
         {
-            id: 3,
-            name: "Ms Josemary A",
+            id: 5,
+            name: "Ms. Josemary A.",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/josemary.jpg"
         },
         {
-            id: 4,
-            name: "Ms Sreeja Nair M. P",
+            id: 6,
+            name: "Ms. Sreeja Nair M. P.",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/sreeja.jpg"
         },
         {
-            id: 5,
-            name: "Ms Aparna A. S",
+            id: 7,
+            name: "Ms. Aparna A. S.",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/aparna_a_s.jpg"
         },
         {
-            id: 6,
-            name: "Ms Preethy Prabhakar",
+            id: 8,
+            name: "Ms. Preethy Prabhakar",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/preethy.jpg"
         },
         {
-            id: 7,
-            name: "Dr Remya R",
-            desgn: "Associate Professor",
-            dep: " Department of CSE, CCET",
-            img: "/committe/remya.jpg"
-        },
-        {
-            id: 8,
-            name: "Ms Vani V. Prakash",
+            id: 9,
+            name: "Ms. Vani V. Prakash",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/vani.jpg"
         },
         {
-            id: 9,
-            name: "Ms Anusmitha A",
+            id: 10,
+            name: "Ms. Anusmitha A.",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/Anusmitha_A.jpg"
         },
         {
-            id: 10,
-            name: "Ms Surya Sugunan",
+            id: 11,
+            name: "Ms. Surya Sugunan",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
-            img: "/committe/Anusmitha_A.jpg"
+            img: ""
+        },
+        {
+            id: 12,
+            name: "Ms. Nithyamol Antony",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
+        },
+        {
+            id: 13,
+            name: "Mr. Thomas Joseph",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: " "
+        },
+        {
+            id: 14,
+            name: "Ms. Amrutha Mohandas",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
+        },
+        {
+            id: 15,
+            name: "Ms. Renjini P. S.",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
+        },
+        {
+            id: 16,
+            name: "Ms. Gokula Nath G.",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
+        },
+        {
+            id: 17,
+            name: "Ms. Jipsa Kurian",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
+        },
+        {
+            id: 18,
+            name: "Ms. Angel Joseph",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
+            img: ""
         },
         {
             id: 11,
@@ -158,11 +200,9 @@ export const orgCommitte = {
 export const advisors = [
     {
         id: 1,
-        name: "Dr P. Sojan Lal",
-        desgn: "Professor",
-        dep: "Rajagiri School of Engineering & Technology, Kakkanad, Kochi, Kerala, India",
-        // qualfs: "M.Tech, MBA (UK), DBA(USA),I ENG(UK), Ph.D, FIE(India)",
-        // desgn: "Professor",
+        name: "Dr Sheethal Tom",
+        desgn: "Senior Lecturer – Research",
+        dep: "Emeris, Cape Town , South Africa",
     },
     {
         id: 2,
@@ -174,38 +214,21 @@ export const advisors = [
     },
     {
         id: 3,
+        name: "Dr. N. Sugitha",
+        desgn: "Associate Professor/ECE",
+        dep: "Saveetha Engineering College, Chennai",
+        more: true
+    },
+    {
+        id: 4,
         name: "Dr Preetha Mathew K",
         desgn: "Professor",
         dep: " Department of Computer Science and Engineering",
         clg1: "Cochin University College of Engineering, Kuttanad",
         more: true
     },
-    // {
-    //     id: 4,
-    //     name: "Prof. Dr. Susan Jacob",
-    //     desgn: "Professor and Head",
-    //     dep: " Department of Civil Engineering",
-    //     clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
-    //     more: true
-    // },
-    // {
-    //     id: 5,
-    //     name: "Prof. Dr. Jayaprasad G",
-    //     desgn: "Professor and Head",
-    //     dep: " Department of Mechanical Engineering",
-    //     clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
-    //     more: true
-    // },
     {
-        id: 6,
-        name: "Dr. G Muruganath",
-        desgn: "Professor and Head",
-        dep: "Department of Electrical and Electronics Engineering",
-        clg1: "Ahalia School of Engineering & Technology, Palakkad",
-        more: true
-    },
-    {
-        id: 10,
+        id: 5,
         name: "Dr. Deepthi Sasidharan",
         desgn: "Associate Professor,",
         dep: "Department of Information Technology",
@@ -213,23 +236,15 @@ export const advisors = [
         more: true
     },
     {
-        id: 7,
+        id: 6,
         name: "Dr. Salaji S",
         desgn: "Associate Professor,",
         dep: " Department of Mechanical Engineering",
         clg1: "Cochin University College of Engineering, Kuttanad",
         more: true
     },
-    // {
-    //     id: 8,
-    //     name: "Prof. Sarath K. S",
-    //     desgn: "Head,",
-    //     dep: " Department of Electrical and Electronics Engineering",
-    //     clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
-    //     more: true
-    // },
     {
-        id: 9,
+        id: 7,
         name: "Prof. Syam Gopi",
         desgn: "Associate Professor,",
         dep: "Department of Computer Science and Engineering",
@@ -237,7 +252,7 @@ export const advisors = [
         more: true
     },
     {
-        id: 11,
+        id: 8,
         name: "Dr. Esther Daniel",
         desgn: "Associate Professor,",
         dep: "Department of Computer Science and Engineering",
@@ -303,7 +318,7 @@ export const topics = [
 
 export const authorGuidelines = [
     "Paper submissions should be in MS-Word / PDF",
-    "Papers submitted to NCIPETC-26 should be original and not published or submitted to any other conference / journal",
+    "Papers submitted to ICIPETC-26 should be original and not published or submitted to any other conference / journal",
     "Papers must be clearly presented in English language",
     "Submissions will be selected based on their originality, timeliness, significance, relevance, and clarity of presentation."
 ]
@@ -325,28 +340,28 @@ export const committe = [
         id: 1,
         name: "REV. Fr Thomas Choolaparampil CMI",
         desgn: "Chairman, CCET",
-        img: "/committe/fr_thomas.svg",
+        img: "/Fr Thomas_Chairman.jpg",
         role: "chief Patron"
     },
     {
         id: 1,
         name: "REV. Fr Justin Alukkal CMI",
         desgn: "Director, CCET",
-        img: "/committe/fr_justin.svg",
+        img: "/Fr Justin_Director.jpg",
         role: "patron"
     },
     {
         id: 2,
         name: "Prof. Dr Josephkutty Jacob",
         desgn: "Principal, CCET",
-        img: "/committe/Dr_Josephkutty_Jacob.jpg",
+        img: "/Dr JOSEPHKUTTY JACOB.jpeg",
         role: "patron"
     },
     {
         id: 1,
-        name: "Prof. Anoop R. S",
-        desgn: "Head, Department of CSE, CCET",
-        img: "/committe/anoop_rs.svg",
+        name: "Dr M. S. Sujithra",
+        desgn: "Associate Professor & HOD, CSE, CCET",
+        img: "/committe/sujithra_ms.jpg",
         role: "convener"
     },
 ]

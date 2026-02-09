@@ -108,7 +108,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="flex-1 hidden md:flex lg:flex items-center justify-end pl-8">
-            <Link href={"https://forms.gle/VWgA4t2jr1esEkLcA"} target="_blank">
+            <Link href={"https://forms.gle/MPumP2bZST17MJmq5"} target="_blank">
               <button className="px-5 py-2.5 rounded-full bg-conference-primary text-white font-semibold text-sm hover:bg-conference-secondary shadow-lg shadow-conference-primary/20 hover:shadow-conference-primary/40 transition-all transform hover:-translate-y-0.5">
                 Submit Paper
               </button>
@@ -159,7 +159,7 @@ export default function Header() {
               {!item?.dropdown ? (
                 <Link
                   href={item?.link}
-                  className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 text-gray-700 font-medium transition-colors"
+                  className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 text-gray-700 font-medium transition-colors capitalize"
                   onClick={() => setIsDrawerOpen(false)}
                 >
                   <MdInsertLink className="text-gray-400 text-xl" />
@@ -205,7 +205,7 @@ export default function Header() {
 
         <div className="mt-6 pt-6 border-t border-gray-100">
           <Link
-            href={"https://forms.gle/VWgA4t2jr1esEkLcA"}
+            href={"https://forms.gle/MPumP2bZST17MJmq5"}
             target="_blank"
             onClick={() => setIsDrawerOpen(false)}
           >

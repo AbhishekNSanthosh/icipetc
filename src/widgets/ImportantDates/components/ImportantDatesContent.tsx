@@ -4,19 +4,19 @@ import { MdDateRange } from "react-icons/md";
 
 const timelineData = [
   {
-    date: "31 Jan 2026",
+    date: "15 Feb 2026",
     title: "Last date to submit paper",
   },
   {
-    date: "15 Feb 2026",
+    date: "23 Feb 2026",
     title: "Acceptance notification",
   },
   {
-    date: "01 March 2026",
+    date: "28 Feb 2026",
     title: "Camera ready paper",
   },
   {
-    date: "06, 07 March 2026",
+    date: "13 March 2026",
     title: "Conference date",
   },
 ];

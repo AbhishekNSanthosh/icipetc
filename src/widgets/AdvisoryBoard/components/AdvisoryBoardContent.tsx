@@ -15,7 +15,7 @@ export default function AdvisoryBoardContent() {
         />
         <p className="max-w-3xl text-gray-500 text-lg">
           Our distinguished advisory board comprises renowned academicians and
-          industry experts who guide the strategic direction of NCIPETC-26.
+          industry experts who guide the strategic direction of ICIPETC-26.
         </p>
       </div>
 

@@ -57,14 +57,14 @@ export default function CallForPapersContent() {
               The conference will provide an arena for showcasing novel research
               findings and practical experiences in various engineering domains.
               We invite you to submit your original research contributions to{" "}
-              <span className="font-bold text-primary-600">NCIPETC-26</span>.
+              <span className="font-bold text-primary-600">ICIPETC-26</span>.
             </p>
           </div>
           <div className="flex-1 flex items-center justify-center relative">
             {/* Decorative blob or circle could go here */}
             <div className="absolute inset-0 bg-primary-50 rounded-full blur-3xl opacity-30 transform scale-75"></div>
             <Image
-              src="/call.svg"
+              src="/callforpaper.svg"
               height={500}
               width={500}
               alt="Call for papers illustration"
