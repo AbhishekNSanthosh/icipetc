@@ -44,9 +44,9 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/80 backdrop-blur-md shadow-sm h-[8vh]" : "bg-transparent h-[10vh] lg:h-[13vh] md:h-[12vh]"}`}
+        className={`fixed px-[4vw] top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/80 backdrop-blur-md shadow-sm h-[8vh]" : "bg-transparent h-[10vh] lg:h-[13vh] md:h-[12vh]"}`}
       >
-        <div className="px-[5vw] h-full flex items-center justify-between w-full max-w-[1920px] mx-auto">
+        <div className="px-6 h-full flex items-center justify-between w-full mx-auto">
           {/* Logo */}
           <div className="flex-[1] flex">
             <Link

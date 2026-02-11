@@ -303,7 +303,7 @@ export const topics = [
         odd: false
     },
     {
-        title: "machince learning",
+        title: "Machine  learning",
         odd: true
     },
     {
