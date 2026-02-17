@@ -2,9 +2,16 @@ import SubmissionGuidelines from "@widgets/SubmissionGuidelines";
 import React from "react";
 
 export const metadata = {
-  title: "Submission Guidelines | ICIPETC-26",
+  title: "Submission Guidelines | ICIPETC-26 IEEE Format",
   description:
-    "Follow the submission guidelines for ICIPETC-26, the International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing. Ensure your paper meets all the requirements for submission.",
+    "Review guidelines for paper submission to ICIPETC-26. Papers must follow IEEE Standard format. Double-blind peer review process. submit your original research in computing today.",
+  keywords: [
+    "submission guidelines",
+    "IEEE paper format",
+    "research paper template",
+    "double blind review",
+    "academic writing specs",
+  ],
 };
 
 export default function page() {

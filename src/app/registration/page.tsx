@@ -2,9 +2,15 @@ import Registration from "@widgets/Registration";
 import React from "react";
 
 export const metadata = {
-  title: "Registration | ICIPETC-26",
+  title: "Registration | ICIPETC-26 Conference Fees",
   description:
-    "Register for ICIPETC-26, the International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing, hosted by Carmel College of Engineering and Technology. Secure your spot today!",
+    "Register now for ICIPETC-26! Registration fees: UG/PG Students ₹1500, Research Scholars ₹2000, Professionals ₹2500, Attendees ₹500. Join us on March 19, 2026 at CCET Alappuzha.",
+  keywords: [
+    "ICIPETC registration",
+    "conference fees",
+    "attend academic conference",
+    "register for research conference",
+  ],
 };
 
 export default function page() {
