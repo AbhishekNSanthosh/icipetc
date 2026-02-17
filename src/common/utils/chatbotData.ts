@@ -2,7 +2,7 @@ export const chatbotFAQs = [
     {
         id: "dates",
         question: "Important Dates",
-        answer: "📅 **Important Dates:**\n\n• Submission Deadline: 15 Feb 2026\n• Acceptance Notification: 23 Feb 2026\n• Camera Ready Paper: 28 Feb 2026\n• Conference Date: 13 March 2026",
+        answer: "📅 **Important Dates:**\n\n• Submission Deadline: 25 Feb 2026\n• Acceptance Notification: 28 Feb 2026\n• Camera Ready Paper: 07 March 2026\n• Conference Date: 19 March 2026",
     },
     {
         id: "fee",

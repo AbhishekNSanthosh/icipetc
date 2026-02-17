@@ -51,9 +51,18 @@ export default function About() {
                   contributing to the advancement of science, engineering,
                   healthcare, business, and other domains are encouraged.
                 </p>
-                <div className="flex items-center gap-2 text-sm font-medium text-gray-500 bg-gray-50 w-fit px-4 py-2 rounded-lg shadow-sm">
-                  <HiOutlineAcademicCap className="text-lg text-conference-primary" />
-                  Selected papers will be published in book chapters of Scopus indexed journals.
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-50 w-fit px-4 py-2 rounded-lg shadow-sm border border-gray-100">
+                    <HiOutlineAcademicCap className="text-lg text-conference-primary" />
+                    All the selected papers will be published in conference
+                    proceedings with ISBN number.
+                  </div>
+                  <div className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-50 w-fit px-4 py-2 rounded-lg shadow-sm border border-gray-100">
+                    <HiOutlineAcademicCap className="text-lg text-conference-primary" />
+                    A few selected papers accepted after peer review will be
+                    published in Book chapters of Scopus indexed journals with
+                    additional charges.
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -140,9 +149,10 @@ export default function About() {
             <motion.div variants={fadeInUp} className="flex-1 space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed text-justify">
                 The Department of CSE in Carmel College of Engineering and
-                Technology was established in 2017. Currently with an intake of
-                120 students per year, the department plays a key role in
-                enhancing the technical competence of students in Computer
+                Technology was established in 2017 with a maximum intake of 60
+                students per year and later upgraded to 120 students per year in
+                2024. Department plays a key role to enhance the learning and
+                technical competence of students in the field of Computer
                 Science & Engineering.
               </p>
 
@@ -177,6 +187,56 @@ export default function About() {
                 width={1000}
                 height={1000}
                 alt="CSE Department"
+                className="w-full max-w-[32rem] rounded-2xl shadow-lg filter grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105"
+              />
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* VEI Technologies Section */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className="flex flex-col space-y-8"
+        >
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-12 w-full">
+            {/* Text Content */}
+            <motion.div variants={fadeInUp} className="flex-1 space-y-6">
+              <div className="flex items-center justify-end lg:justify-start w-full lg:w-auto">
+                <div className="w-full flex justify-end">
+                  <Titlebar
+                    title="About VEI Technologies PVT LTD"
+                    className="text-primary-600 text-sm lg:text-2xl font-medium"
+                    bgColor="bg-transparent"
+                  />
+                </div>
+              </div>
+
+              <p className="text-lg text-gray-600 leading-relaxed text-justify lg:text-right">
+                VEI Technologies provides a broad range of IT consulting, web
+                application, and outsourcing services through optimized
+                techniques. It focuses on delivering business solutions for
+                clients' business processes.
+              </p>
+              <p className="text-gray-600 text-justify lg:text-right">
+                The company serves industry leaders by helping them improve
+                customer experience, expand market reach, and reduce
+                time-to-market. With highly professional and dedicated workers,
+                VEI Technologies ensures the timely completion of projects.
+              </p>
+            </motion.div>
+
+            {/* Image Placeholder or Reuse */}
+            <motion.div
+              variants={fadeInUp}
+              className="flex-1 flex items-center justify-center relative w-full"
+            >
+              <Image
+                src={"/veitech.jpg"}
+                width={1000}
+                height={1000}
+                alt="VEI Technologies"
                 className="w-full max-w-[32rem] rounded-2xl shadow-lg filter grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105"
               />
             </motion.div>

@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://icipetc-26.carmelcet.in"),
   title: {
     default:
-      "ICIPETC-26 2026 | International Conference on Computing & Technology | March 13, 2026",
+      "ICIPETC-26 2026 | International Conference on Computing & Technology | March 19, 2026",
     template: "%s | ICIPETC-26 International Conference",
   },
   description:
-    "ICIPETC-26: International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing, March 13, 2026 at Carmel College of Engineering & Technology, Alappuzha, Kerala. Submit research papers on AI, Machine Learning, IoT, Cybersecurity, Cloud Computing, Data Science, Blockchain & more. IEEE format, peer-reviewed, academic conference for researchers, scholars, and industry professionals.",
+    "ICIPETC-26: International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing, March 19, 2026 at Carmel College of Engineering & Technology, Alappuzha, Kerala. Submit research papers on AI, Machine Learning, IoT, Cybersecurity, Cloud Computing, Data Science, Blockchain & more. IEEE format, peer-reviewed, academic conference for researchers, scholars, and industry professionals.",
   keywords: [
     // Conference Name & Variations
     "ICIPETC-26",
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
     "March 2026 conference",
     "2026 computing conference",
     "Spring 2026 conference",
-    "Conference March 13",
+    "Conference March 19",
 
     // Conference Features
     "Paper presentation",
@@ -175,7 +175,7 @@ export const metadata: Metadata = {
     title:
       "ICIPETC-26 2026 | International Conference on Computing & Emerging Technologies",
     description:
-      "Join ICIPETC-26 on March 13, 2026 at Carmel College, Alappuzha, Kerala. Submit research papers on AI, ML, IoT, Cybersecurity, Cloud Computing & more. IEEE format, peer-reviewed international conference for researchers and industry professionals.",
+      "Join ICIPETC-26 on March 19, 2026 at Carmel College, Alappuzha, Kerala. Submit research papers on AI, ML, IoT, Cybersecurity, Cloud Computing & more. IEEE format, peer-reviewed international conference for researchers and industry professionals.",
     url: "https://icipetc-26.carmelcet.in",
     siteName: "ICIPETC-26 International Conference",
     locale: "en_US",
@@ -185,7 +185,7 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ICIPETC-26 International Conference on Computing - March 13, 2026",
+        alt: "ICIPETC-26 International Conference on Computing - March 19, 2026",
         type: "image/png",
       },
     ],
@@ -195,7 +195,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ICIPETC-26 | International Computing Conference 2026",
     description:
-      "International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing. March 13, 2026 | Carmel College, Alappuzha, Kerala | Submit Research Papers on AI, ML, IoT, Cybersecurity & more.",
+      "International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing. March 19, 2026 | Carmel College, Alappuzha, Kerala | Submit Research Papers on AI, ML, IoT, Cybersecurity & more.",
     images: ["/images/og-image.png"],
     creator: "@CCET_Official",
     site: "@ICIPETC26",
@@ -225,13 +225,13 @@ export const metadata: Metadata = {
     "geo.placename": "Alappuzha, Kerala",
     "geo.position": "9.4380491;76.3430202",
     ICBM: "9.4380491, 76.3430202",
-    "event-date": "2026-03-13",
+    "event-date": "2026-03-19",
     "event-location":
       "Carmel College of Engineering & Technology, Punnapra, Alappuzha - 688004, Kerala, India",
     "conference-type": "International Academic Conference",
-    "submission-deadline": "2026-02-15",
-    "acceptance-notification": "2026-02-23",
-    "camera-ready-deadline": "2026-02-28",
+    "submission-deadline": "2026-02-25",
+    "acceptance-notification": "2026-02-28",
+    "camera-ready-deadline": "2026-03-07",
   },
   applicationName: "ICIPETC-26 Conference",
   appleWebApp: {
@@ -270,8 +270,8 @@ export default function RootLayout({
               name: "ICIPETC-26 - International Conference on Interdisciplinary Perspectives of Emerging Trends in Computing",
               description:
                 "International academic conference on computing, AI, machine learning, IoT, cybersecurity, and emerging technologies",
-              startDate: "2026-03-13T09:00:00+05:30",
-              endDate: "2026-03-13T17:00:00+05:30",
+              startDate: "2026-03-19T09:00:00+05:30",
+              endDate: "2026-03-19T17:00:00+05:30",
               eventStatus: "https://schema.org/EventScheduled",
               eventAttendanceMode:
                 "https://schema.org/OfflineEventAttendanceMode",

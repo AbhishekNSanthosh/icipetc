@@ -30,7 +30,7 @@ export default function OrganizersContent() {
             <div className="h-[1px] flex-1 bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {committe.map((member, index) => (
               <div
                 key={index}

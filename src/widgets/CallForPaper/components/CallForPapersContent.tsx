@@ -76,6 +76,40 @@ export default function CallForPapersContent() {
         {/* Divider */}
         <div className="w-full h-[1px] bg-gray-100"></div>
 
+        {/* Who can apply Section */}
+        <div className="flex flex-col space-y-6 lg:flex-row lg:space-y-0 lg:space-x-12 items-center">
+          <div className="flex-1">
+            <Titlebar
+              className="text-primary-600 text-sm lg:text-3xl font-bold uppercase tracking-wider"
+              title="Who can apply?"
+              bgColor="bg-transparent"
+            />
+            <p className="text-justify text-gray-600 text-lg leading-relaxed mt-4">
+              This Conference is open to:
+            </p>
+            <ul className="list-disc list-inside space-y-2 mt-4 text-gray-700 text-lg">
+              <li>
+                <span className="font-semibold">UG/PG Students</span> of
+                engineering colleges
+              </li>
+              <li>
+                <span className="font-semibold">Academicians</span>
+              </li>
+              <li>
+                <span className="font-semibold">Research Scholars</span>
+              </li>
+              <li>
+                <span className="font-semibold">Professionals</span> from
+                research organizations and industries
+              </li>
+            </ul>
+          </div>
+          {/* Optional: Add an illustration or icon here if desired, or keep it text focused */}
+        </div>
+
+        {/* Divider */}
+        <div className="w-full h-[1px] bg-gray-100"></div>
+
         {/* Topics Grid Section */}
         <div className="flex flex-col space-y-8">
           <div className="text-center space-y-2">

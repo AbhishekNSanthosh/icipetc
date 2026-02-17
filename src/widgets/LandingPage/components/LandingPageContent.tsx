@@ -73,7 +73,7 @@ export default function LandingPageContent() {
               Emerging Trends in Computing (ICIPETC-26)
             </p>
             <span className="font-bold text-conference-primary block mt-4 text-xl tracking-wide">
-              March 13, 2026
+              March 19, 2026
             </span>
           </motion.div>
 
